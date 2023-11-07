@@ -25,6 +25,7 @@ public class store {
 		session.save(u);
 		tx.commit();
 		System.out.println("Successfully submited");
+		//all are available//
 		factory.close();
 		session.close();
 		
